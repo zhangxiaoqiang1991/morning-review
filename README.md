@@ -84,13 +84,31 @@ cp -r morning-review ~/.claude/skills/
 # 2. 在对话中输 /morning-review 启动
 ```
 
-### 配置多数据源（可选）
+### 核心原则：尽可能覆盖你的工作轨迹
 
-如需接入辅助数据源，按需配置：
-- **飞书日历**：安装飞书 CLI，配置 Bot 身份
-- **Get 笔记**：安装 `@getnote/cli`，完成 OAuth 登录
-- **Screenpipe**：安装 screenpipe，确保本地 3030 端口运行
-- **微信读书**：获取 API Key 配置到环境变量
+复盘质量取决于输入数据的丰富度。核心是 Agent 工作日志（必需），其余辅助数据源用来覆盖更多工作轨迹，**有则用，无则跳过**。
+
+### 辅助数据源安装命令
+
+```bash
+# 飞书 CLI（日历/文档）
+# 安装：brew install lark-cli
+lark-cli calendar +agenda
+
+# Get 笔记 CLI（语音灵感记录）
+# 安装：npm install -g @getnote/cli
+getnote notes --all --limit 5
+
+# Screenpipe（屏幕活动记录）
+# 安装：brew install screenpipe
+curl "http://localhost:3030/search?content_type=ocr&limit=10"
+
+# 微信读书 CLI（阅读记录）
+# 安装：npm install -g weread-agent-cli
+weread shelf recent --json --limit 3
+```
+
+企业微信、钉钉等办公平台同样可以用 CLI/API 拉取日程和文档。原则：**能覆盖就覆盖，不需要全都配齐。**
 
 ## 反馈 & 帮助迭代
 
