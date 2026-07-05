@@ -72,7 +72,7 @@ Phase 5  保存到笔记并打开
 ## 安装
 
 ### 前置条件
-- Claude Code 桌面端（或兼容的 AI 编程工具）
+- Claude Code / Codex / OpenClaw / KimiCode / Trae / Workbuddy 等 AI 编程工具
 - （可选）工作日志系统，用于提供昨日数据
 
 ### 步骤
@@ -92,6 +92,28 @@ cp -r morning-review ~/.claude/skills/
 - **Screenpipe**：安装 screenpipe，确保本地 3030 端口运行
 - **微信读书**：获取 API Key 配置到环境变量
 
-## 许可证
+## 反馈 & 帮助迭代
+
+欢迎在 [Issues](https://github.com/zhangxiaoqiang1991/morning-review/issues) 页面提交反馈，或直接联系作者。
+
+## 关于我
+
+**大厂转型人强哥**（全网同名）
+
+河北邯郸人，曾武汉求学，现居北京。曾就职腾讯、字节跳动。目前负责 AI + 内容增长、产品运营。关注以下三方面的机会，欢迎交流 / 围观朋友圈：
+
+- **AI 内容运营**：从战略、策略到执行的内容增长
+- **AI 培训 / 布道**：帮团队真正用好 AI，不只是上个课
+- **AI 内部提效**：搭建工具流，把 AI 落地到业务流程里
+
+**联系方式与链接：**
+
+- 微信：`qianggegood123`
+- 小红书：[强哥 @andyxqzhang](https://www.xiaohongshu.com/user/profile/617395d8000000001f0362a3)
+- Twitter：[@andyxqzhang001](https://x.com/andyxqzhang001)
+
+---
+
+## License
 
 MIT

@@ -605,7 +605,7 @@ mkdir -p "{你的笔记目录}/晨间复盘/"
 ## 安装方式
 
 ### 前提条件
-- Claude Code 桌面端（或兼容的 AI 编程工具）
+- Claude Code / Codex / OpenClaw / KimiCode / Trae / Workbuddy 等 AI 编程工具
 - 支持 Preview 面板（用于侧边栏预览）
 - （可选）Obsidian 1.12+（用于知识库集成）
 
@@ -638,8 +638,26 @@ cp -r morning-review ~/.claude/skills/
 
 ## 反馈 & 帮助迭代
 
-欢迎在 Issues 页面提交反馈。
+欢迎在 [Issues](https://github.com/zhangxiaoqiang1991/morning-review/issues) 页面提交反馈，或直接联系作者。
 
-## 关于 & License
+## 关于我
+
+**大厂转型人强哥**（全网同名）
+
+河北邯郸人，曾武汉求学，现居北京。曾就职腾讯、字节跳动。目前负责 AI + 内容增长、产品运营。关注以下三方面的机会，欢迎交流 / 围观朋友圈：
+
+- **AI 内容运营**：从战略、策略到执行的内容增长
+- **AI 培训 / 布道**：帮团队真正用好 AI，不只是上个课
+- **AI 内部提效**：搭建工具流，把 AI 落地到业务流程里
+
+**联系方式与链接：**
+
+- 微信：`qianggegood123`
+- 小红书：[强哥 @andyxqzhang](https://www.xiaohongshu.com/user/profile/617395d8000000001f0362a3)
+- Twitter：[@andyxqzhang001](https://x.com/andyxqzhang001)
+
+---
+
+## License
 
 MIT
